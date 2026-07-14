@@ -46,14 +46,14 @@ const MUSIC_TRACKS = [
    Nama file harus:  img1.jpeg  img2.jpeg  … img8.jpeg
    Ganti caption (keterangan foto) di setiap baris.               */
 const GALLERY_PHOTOS = [
-  { file: "img1.jpeg", caption: "One smile from you can fix my whole day." },  // ← GANTI CAPTION
-  { file: "img2.jpeg", caption: "You're the reason my heart feels so full." },
-  { file: "img3.jpeg", caption: "Every second with you is my favorite." },
-  { file: "img4.jpeg", caption: "Some people search for happiness, I found mine in you." },
-  { file: "img5.jpeg", caption: "You turned my ordinary life into something beautiful." },
-  { file: "img6.jpeg", caption: "My heart feels safest when it's with you." },
-  { file: "img7.jpeg", caption: "If I could relive a moment, I'd choose us every time." },
-  { file: "img8.jpeg", caption: "Still my favorite person, always. " },
+  { file: "img1.jpeg", caption: "Satu senyum dari kamu aja udah bisa bikin hari aku jadi bagus." },  // ← GANTI CAPTION
+  { file: "img2.jpeg", caption: "Kamu itu alasan kenapa hati aku selalu ngerasa penuh." },
+  { file: "img3.jpeg", caption: "Setiap detik sama kamu itu momen favorit aku." },
+  { file: "img4.jpeg", caption: "Orang lain nyari kebahagiaan, aku udah nemuin itu di kamu." },
+  { file: "img5.jpeg", caption: "Kamu yang bikin hidup aku yang biasa aja jadi indah." },
+  { file: "img6.jpeg", caption: "Hati aku ngerasa paling aman kalau lagi sama kamu." },
+  { file: "img7.jpeg", caption: "Kalau aku bisa ngulang satu momen, aku bakal pilih kita lagi terus." },
+  { file: "img8.jpeg", caption: "Tetap orang favorit aku, sampai kapanpun." },
 ];
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -63,7 +63,7 @@ const GALLERY_PHOTOS = [
    Bisa ditambah atau dikurangi paragrafnya.                       */
 const LETTER_PARAGRAPHS = [
   "happy birthday sayangggkuu!!! happy level up. 🤍 semoga di umur yang baru ini kamu jadi pribadi yang makin baik dari sebelumnya, selalu dikasih umur yang panjang, sehat fisik maupun mental, rezekinya makin lancar, semua urusannya dipermudah, dan semoga Allah selalu nambahin rasa sabar di setiap langkah kamu. aamiin. aku juga berharap semua impian yang lagi kamu perjuangin pelan-pelan bisa jadi kenyataan.",
-  "semangat terus ya sayang buat ngejar masa depan yang kamu impiin. kalau hari ini gagal, besok kita coba lagi. jangan pernah putus asa sama usaha kamu sendiri, karena aku yakin kamu bisa sampai di titik yang kamu mau. always believe in yourself, karena aku bakal selalu percaya sama kamu dan bangga sama setiap proses yang kamu lewatin.",
+  "semangat terus ya sayang buat ngejar masa depan yang kamu impiin. kalau hari ini gagal, besok kita coba lagi. jangan pernah putus asa sama usaha kamu sendiri, karena aku yakin kamu bisa sampai di titik yang kamu mau. selalu percaya sama diri kamu sendiri ya, karena aku bakal selalu percaya sama kamu dan bangga sama setiap proses yang kamu lewatin.",
   "aku juga mau bilang makasih banyak ya. makasih karena walaupun kita dipisahin jarak dan kamu sering sibuk, kamu tetep selalu nyempetin waktu buat aku. kamu selalu bikin aku ngerasa ditemenin dan ga pernah ngerasa sendirian. aku bakal selalu ada di belakang kamu, selalu doain kamu, support kamu, dan jadi orang yang paling bangga ngeliat kamu terus berkembang. jangan lupain aku ya di setiap perjalanan kamu. 🤍",
   "sayang, di sana jaga diri baik-baik yaa. fokus sama tujuan kamu, jangan terlalu dengerin omongan orang yang ga bikin kamu berkembang. istirahat yang cukup, jangan terlalu maksa diri kalau udah capek. pokoknya setiap hari doa aku isinya selalu hal-hal baik buat kamu. semoga kamu hidup lebih lama, selalu bahagia, dan semua langkahmu dijaga sama Allah. sekali lagi, happy birthday abyku, sayangku, semestakuu. i love you always. 🤍🌏",
 ];
@@ -78,27 +78,27 @@ const LETTER_PARAGRAPHS = [
 const MEMORIES = [
   {
     depth: "2m",
-    year:  "Chapter One",
-    title: "Where It All Started",
-    text:  "That moment when everything just clicked and suddenly made sense.",
+    year:  "Bab Satu",
+    title: "Awal Mula Semuanya",
+    text:  "Momen di mana semuanya tiba-tiba klik dan jadi masuk akal.",
   },
   {
     depth: "8m",
-    year:  "Chapter Two",
-    title: "The Quiet Days",
-    text:  "Just you, me, and those simple moments that ended up meaning everything.",
+    year:  "Bab Dua",
+    title: "Hari-Hari yang Tenang",
+    text:  "Cuma kamu, aku, dan momen sederhana yang ternyata artinya segalanya.",
   },
   {
     depth: "16m",
-    year:  "Chapter Three",
-    title: "Through the Storms",
-    text:  "We've had our rough days, but honestly, we always found our way back.",
+    year:  "Bab Tiga",
+    title: "Ngelewatin Badai",
+    text:  "Kita pernah ngalamin hari-hari susah, tapi jujur, kita selalu nemu jalan buat balik lagi.",
   },
   {
     depth: "24m",
-    year:  "Chapter Four",
-    title: "Finding the Light",
-    text:  "You're literally the brightest part of my journey, even in the deepest waters.",
+    year:  "Bab Empat",
+    title: "Nemuin Cahaya",
+    text:  "Kamu literally bagian paling terang di perjalanan aku, bahkan di air yang paling dalam sekalipun.",
   },
 ];
 
@@ -108,12 +108,12 @@ const MEMORIES = [
    icon: wave | shell | star | compass | anchor | heart
    text: isi ucapannya                                            */
 const WISHES = [
-  { icon: "wave",    text: "May this year bring you the calmness of the ocean and the depth of your kindness." },
-  { icon: "shell",   text: "Hope your days are as bright as the sun on the water, and your nights as peaceful as the receding tide." },
-  { icon: "star",    text: "May every little wish of yours arrive right when you need it the most." },
-  { icon: "compass", text: "Wherever this year takes you, I hope you always find your way back to the people who adore you." },
-  { icon: "anchor",  text: "Stay grounded, stay grateful, and honestly, just stay as beautiful as you are right now." },
-  { icon: "heart",   text: "Happy birthday — cheers to another year of memories totally worth keeping." },
+  { icon: "wave",    text: "Semoga tahun ini bawa ketenangan kayak laut dan sedalam kebaikan hati kamu." },
+  { icon: "shell",   text: "Semoga hari-hari kamu secerah matahari di atas air, dan malemnya setenang ombak yang lagi surut." },
+  { icon: "star",    text: "Semoga setiap harapan kecil kamu dateng tepat pas kamu lagi butuh banget." },
+  { icon: "compass", text: "Ke mana pun tahun ini bawa kamu pergi, semoga kamu selalu nemu jalan balik ke orang-orang yang sayang sama kamu." },
+  { icon: "anchor",  text: "Tetap membumi, tetap bersyukur, dan jujur aja, tetap secantik ini apa adanya." },
+  { icon: "heart",   text: "Happy birthday — cheers buat kenangan setahun lagi yang bener-bener layak dikenang." },
 ];
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -127,7 +127,7 @@ const WISHES = [
    Nomor WA untuk membalas pesan setelah lilin ditiup.
    Gunakan format internasional tanpa tanda + (contoh: 62812...) */
 const WHATSAPP_NUMBER = "6281913083213";   // ← GANTI NOMOR WA YANG ORDER
-const WHATSAPP_MESSAGE = "Hey, I just opened the bottle. Thank you for making my day! ✨"; // ← GANTI PESAN OTOMATIS
+const WHATSAPP_MESSAGE = "Hai, aku baru aja buka botolnya. Makasih banyak udah bikin hari aku jadi spesial! ✨"; // ← GANTI PESAN OTOMATIS
 
 window.OCEAN_SETTINGS = {
     recipientName:    String(RECIPIENT_NAME),
