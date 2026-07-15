@@ -48,12 +48,7 @@ const MUSIC_TRACKS = [
 const GALLERY_PHOTOS = [
   { file: "img1.jpeg", caption: "Satu senyum dari kamu aja udah bisa bikin hari aku jadi bagus." },  // ← GANTI CAPTION
   { file: "img2.jpeg", caption: "Kamu itu alasan kenapa hati aku selalu ngerasa penuh." },
-  { file: "img3.jpeg", caption: "Setiap detik sama kamu itu momen favorit aku." },
-  { file: "img4.jpeg", caption: "Orang lain nyari kebahagiaan, aku udah nemuin itu di kamu." },
-  { file: "img5.jpeg", caption: "Kamu yang bikin hidup aku yang biasa aja jadi indah." },
-  { file: "img6.jpeg", caption: "Hati aku ngerasa paling aman kalau lagi sama kamu." },
-  { file: "img7.jpeg", caption: "Kalau aku bisa ngulang satu momen, aku bakal pilih kita lagi terus." },
-  { file: "img8.jpeg", caption: "Tetap orang favorit aku, sampai kapanpun." },
+
 ];
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
